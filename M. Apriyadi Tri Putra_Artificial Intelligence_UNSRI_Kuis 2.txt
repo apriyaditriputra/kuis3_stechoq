@@ -1,0 +1,58 @@
+Kuis 2
+
+1. GIT
+  GIT merupakan version control system yang gratis dan juga open source.
+Git memungkinkan para pengembang untuk bekerja secara bersama-sama pada proyek yang sama dan melacak setiap perubahan yang dilakukan pada source code. 
+Terdapat 2 sistem git, yaitu centralized dan distributed: 
+
+- Centralized, Git centralized berkerja hanya dengan menggunakan satu server yang berfungsi untuk menyimpan data dari project.
+- Distributed, Git distributed bekerja dengan menyimpan data project di lokal dan juga di server. Sehingga lebih aman ketika terjadi sesuatu pada server seperti server corrupt karena sudah terdapat backup dari data project di lokal.
+
+  Fitur-Fitur yang diberikan pada GIT, terdiri dari Version Control dimana pada GIT akan menyimpan setiap pembaruan yang terjadi pada source code dimana penggunan 
+bisa memantau dan mengelola code version berbeda adapaun Git Brach dimana sering digunakan dalam version control system. Branch ini untuk menambahkan fitur baru. Merging digunakan selesai menulis kode dan telah melakukan testing pada 
+branch baru digunakan untuk menggabungkan perubahan. Staging area digunakan untuk memilih perubahan akan di-commit ke repository.Git Rebase digunakan untuk emnggabungkan commit base, hooks script yang dijalankan secara otomatis ketika terjadi commit atau push. GUI tools berfungsi untuk memudahkan penggunaan Git yang dimana terbiasa dnegan command line.
+
+Kelebihan GIT
+- Efisien dalam pengelolahan versi kode sumber
+- Keamanan yang baik untuk melakukan branching dan merging
+- Memiliki kemampuan siapa yang mengubah source code
+- Performa yang cepat dan stabil dalam kode sumber.
+
+Kekurangan GIT
+- Memiliki fitur yang sulit dimengerti oleh orang awam
+- Memerlukan pemahaman yang baik tentang konsep dasar, seperti repository, commit, branching dan merging.
+- Sulit digunakan untuk pengelolaan biner atau non-teks
+
+2. GITLAB
+  Gitlab merupakan salah satu layanan yang menyediakan layanan akses remote ke Git repositories. Gitlab juga dapat meng-hosting project akan tetapi bersifat static. 
+Gitlab mempermudah para developer dalam mengembangkan software dengan menyediakan manajemen internal git repositories. Untuk saat ini gitlab sudah memiliki 4 versi, yaitu:
+Gitlab Enterprise Edition, Gitlab.com, Gitlab Community Edition (Gitlab CE) and Gitlab CI.
+
+Keunggulan GITLAB
+- Pemrosesan CI/CD yang mudah digunakan 
+- Keamanan yang tinggi 
+- Fitur kolaborasi yang lebih unggul 
+Kekurangan GITLAB
+- Kompleks bagi orang awam 
+- Memiliki konfigurasi yang rumit
+- Sebagian gratis
+
+3. Github 
+Salah satu layanan hosting git repository, memiliki fungsi memudahkan dalam manajemen project, sistem versioning code dan platform jejaringan sosial bagi developer. Ciri dari github hanya bisa menampung sintaks dari 200 bahasa pemrograman yang tidak sama. Adapun 3 fitur mendasar dalam github, yaitu:
+- Forking
+Kegiatan menyalin repository yang sudah ada dan melakukan perubahan sesuai yang diinginkan kemudian menyimpan versi terbaru repository dan akan menjadi miliki sendiri.
+- Pull Request 
+Kegiatan untuk menginformasikan user bahwa Anda sudah memindahkan perubahan yang dilakukan pada branch ke master repository.
+-Merging 
+Penggabungan source coce yang telah diubah pada suatu brach ke brach lainnya.
+
+Kenggulan Github
+- Gratis 
+- Proyek bisa diakses oleh orang lain
+- Github bisa melacak perubahan yang terjadi di changelog
+- Bisa digunakan pada IDE seperti, Visual Code Studio, Eclipse dan lainnya
+
+Kekurangan Github 
+- Tidak memiliki keamanana yang baik untuk repositori pribadi
+- Memerluhkan koneksi internet yang stabil ketika ingin menggunakan Github
+- Memiliki batas untuk user ketika membuat repositori pribadi
